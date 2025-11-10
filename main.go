@@ -1,7 +1,10 @@
-package main   
-import ("fmt")
+// package main   
+// import ("fmt")
 
-func main() {  
+// func main() {  
   
-("Hello World!")
-}
+// ("Hello World!")
+// }
+
+//gocompact code
+package main; import ("fmt"); func main() { fmt.Println("Hello World!");}
