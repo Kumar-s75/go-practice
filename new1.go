@@ -31,3 +31,13 @@ func Main(){
  fmt.Println(b)
  fmt.Println(c)
 }
+
+// value assignment after declaration
+package Main
+import ("fmt")
+
+func main(){
+	var student1 string
+	student1="John"
+	fmt.Println(student1)
+}
