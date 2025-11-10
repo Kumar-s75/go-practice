@@ -41,3 +41,19 @@ func main(){
 	student1="John"
 	fmt.Println(student1)
 }
+
+//example using both type declaration of variable
+package Main
+import ("fmt")
+
+var a int
+var b int=2
+var c=3
+
+func main(){
+	a=1
+	d:=6
+fmt.Println(a)
+fmt.println(b)
+fmt.println(c)
+}
