@@ -136,6 +136,12 @@ import ("fmt")
 func main(){
 	var x int=500
 	var y int=-4500
+	var z int=-4500
+	var a float32=123.78
+	var b float32=3.4e+38
 	fmt.Printf("Type:%T,value:%v",x,x);
 	fmt.Printf("Type:%T,value:%v",y,y);
+	fmt.Printf("Type:%T,value:%v",z,z);
+	fmt.Printf("Type:%T,value:%v",a,a);
+	fmt.Printf("Type:%T,value:%v",b,b);
 }
