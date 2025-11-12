@@ -167,3 +167,7 @@ func main(){
 	fmt.Printf("Type:%T,value:%v\n",txt2,txt2);
 	fmt.Printf("Type:%T,value:%v\n",txt3,txt3);
 }
+//Arrays
+var array_name=[Length]datatypes{values}
+or
+var array_name=[...]datatype{values}
