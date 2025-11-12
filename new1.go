@@ -140,10 +140,17 @@ func main(){
 	var a float32=123.78
 	var b float32=3.4e+38
 	var c float64=1.7e+308
+	var txt1 string="Hello!"
+	var txt2 string
+	txt3:="World 1"
+
 	fmt.Printf("Type:%T,value:%v",x,x);
 	fmt.Printf("Type:%T,value:%v",y,y);
 	fmt.Printf("Type:%T,value:%v",z,z);
 	fmt.Printf("Type:%T,value:%v",a,a);
 	fmt.Printf("Type:%T,value:%v",b,b);
 	fmt.Printf("Type:%T,value:%v",c,c);
+	fmt.Printf("Type:%T,value:%v\n",txt1,txt1);
+	fmt.Printf("Type:%T,value:%v\n",txt2,txt2);
+	fmt.Printf("Type:%T,value:%v\n",txt3,txt3);
 }
