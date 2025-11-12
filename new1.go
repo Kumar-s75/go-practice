@@ -200,12 +200,27 @@ func main(){
 }
 ///////
 package main
-import("fmt")
+import ("fmt")
 
-func main(){
-	var arr1=[...]int{1,2,3},
-	arr2:=[...]int{4,5,6,7,8}
-
-	fmt.Println(arr1)
-	fmt.Println(arr2)
+func main() {
+  var cars = [4]string{"Volvo", "BMW", "Ford", "Mazda"}
+  fmt.Print(cars)
 }
+
+/////slices part1
+package main
+import ("fmt")
+
+func main() {
+  myslice1 := []int{}
+  fmt.Println(len(myslice1))
+  fmt.Println(cap(myslice1))
+  fmt.Println(myslice1)
+
+  myslice2 := []string{"Go", "Slices", "Are", "Powerful"}
+  fmt.Println(len(myslice2))
+  fmt.Println(cap(myslice2))
+  fmt.Println(myslice2)
+}
+
+///slices part2
