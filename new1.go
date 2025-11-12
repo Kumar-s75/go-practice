@@ -171,3 +171,41 @@ func main(){
 var array_name=[Length]datatypes{values}
 or
 var array_name=[...]datatype{values}
+
+array_name:=[Length]datatype{values}
+array_name:=[...]datatype{values}
+////[x] defined
+////[...] inferred
+
+package main
+import ("fmt")
+
+func main(){
+	var arr1=[3]int{1,2,3}
+	arr2:=[5]int{4,5,6,7,8}
+
+	fmt.Println(arr1)
+	fmt.Println(arr2)
+}
+//////
+package main
+import ("fmt")
+
+func main(){
+	var arr1=[...]int{1,2,3}
+	arr2:=[...]int{4,5,6,7,8}
+
+	fmt.Println(arr1)
+	fmt.Println(arr2)
+}
+///////
+package main
+import("fmt")
+
+func main(){
+	var arr1=[...]int{1,2,3},
+	arr2:=[...]int{4,5,6,7,8}
+
+	fmt.Println(arr1)
+	fmt.Println(arr2)
+}
