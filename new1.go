@@ -108,4 +108,9 @@ func main(){
 	fmt.Printf("j has value:%v and type:%T",j,j);
 }
 //%v is used to print value 
-//%t is used to print type
+//%t is used to print type 
+
+ fmt.Print(i, "\n")
+  fmt.Print(j, "\n")
+
+  
