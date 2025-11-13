@@ -92,6 +92,7 @@ fmt.Println(b == nil)
 }
 
 ////access map elements
+///update,add and delete elements
 package main
 import ("fmt")
 
@@ -102,4 +103,14 @@ a["model"] = "Mustang"
 a["year"] = "1964"
 
 fmt.Printf(a["brand"])
+fmt.Println(a)
+
+a["year"]="1970"
+a["color"]="red"
+
+fmt.Println(a)
+delete(a,"year")
+fmt.Println(a)
 }
+
+////
