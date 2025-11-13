@@ -36,3 +36,57 @@ func printPerson(pers Person){
 	fmt.Println("Job: ",pers.job)
 	fmt.Println("Salary:",pers.salary)
 }
+
+//go maps
+////var a = map[KeyType]ValueType{key1:value1, key2:value2,...}
+/////b := map[KeyType]ValueType{key1:value1, key2:value2,...}
+///Create Maps Using var and :=
+package main
+import ("fmt")
+
+func main(){
+	var a=map[string]string{"brand":"ford","model":"Mustang","year":1964}
+	    b:=map[string]int{"Oslo":1,"Bergen":2,"Trondheim":3,"Stavanger":4}
+
+		fmt.Printf("a\t%v\n",a)
+		fmt.Printf("b\t%v\n",b)
+}
+
+////Create Maps Using the make() Function:
+/////var a = make(map[KeyType]ValueType)
+///// b := make(map[KeyType]ValueType)
+package main
+import ("fmt")
+
+func main(){
+   var a=make(map[string]string)
+   a["brand"]="Ford"
+   a["model"]="Mustang"
+   a["year"]="1964"
+
+    b := make(map[string]int)
+
+	 b["Oslo"] = 1
+  b["Bergen"] = 2
+  b["Trondheim"] = 3
+  b["Stavanger"] = 4
+
+  fmt.Printf("a\t%v\n", a)
+  fmt.Printf("b\t%v\n", b)
+}
+
+//create an empty map
+// var a map[KeyType]ValueType
+
+package main
+import ("fmt")
+
+func main(){
+	var a = make(map[string]string)
+	var b map [string]string
+
+fmt.Println(a == nil)
+fmt.Println(b == nil)
+	
+
+}
