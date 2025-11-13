@@ -379,3 +379,77 @@ func main(){
 	)
 	fmt.Println(sum3)
 }
+
+//assignment operator
+package main
+import("fmt")
+
+func main(){
+	var x=10
+	fmt.Println(x)
+}
+
+//addition operator
+package main
+import ("fmt")
+
+func main() {
+  var x = 10
+  x +=5
+  fmt.Println(x)
+}
+
+///comparison operator
+package main
+import("fmt")
+
+func main(){
+	var x=5
+	var y=10
+fmt.Println(x>y)
+}
+///conditional statements
+///if statement
+package main
+import ("fmt")
+
+func main(){
+	if 20>18{
+		fmt.Println("20 is greater than 18");
+	}
+	x:=20
+	y:=18
+	if x>y{
+		fmt.Println("x is greater than y");
+	}
+}
+
+///if else statement
+package Main
+import ("fmt")
+
+func main(){
+	time:=20
+	if(time>18){
+		fmt.Println("Good day");
+
+	}else{
+		fmt.Println("Good evening");
+	}
+
+}
+////nested if
+package main
+import ("fmt")
+
+func main(){
+	num:=20
+	if num>=10{
+		fmt.Println("Num is more than 10.");
+	if num >=16{
+		fmt.Println("Num is more than 16");
+	} else{
+		fmt.Println("Num is less than 10");
+	}
+	}
+}
