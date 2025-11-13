@@ -658,3 +658,5 @@ func main(){
   fmt.Println("Job: ", pers2.job)
   fmt.Println("Salary: ", pers2.salary)
 }
+
+//pass struct as function arguments
