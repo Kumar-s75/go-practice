@@ -497,3 +497,26 @@ func main(){
 		fmt.Println("Invalid day of day number")
 	}
 }
+
+//loop examples
+//for loop
+package main
+import ("fmt")
+
+func main(){
+	for i:=0;i<5;i++{
+		fmt.Println(i)
+	}
+}
+///continue statement
+package main
+import ("fmt")
+
+func main(){
+	for i:=0;i<5;i++{
+		if i==3{
+			continue
+		}
+		fmt.Println(i)
+	}
+}
