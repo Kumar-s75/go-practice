@@ -556,3 +556,15 @@ func main(){
 		fmt.Printf("%v\t%v\n",idx,val)
 	}
 }
+
+///function
+package main
+import ("fmt")
+
+func myMessage(){
+	fmt.Println("I just got executed!")
+
+}
+func main(){
+	myMessage();
+}
